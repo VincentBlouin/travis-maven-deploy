@@ -22,10 +22,12 @@
       <activation>
           <activeByDefault>true</activeByDefault>
       </activation>
-      <repository>
-          <id>sonatype-snapshots</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      </repository>
+      <repositories>
+          <repository>
+                    <id>sonatype-snapshots</id>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+          </repository>
+      </repositories>
   </profile>
   </profiles>
   <activeProfiles/>
