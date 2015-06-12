@@ -16,6 +16,16 @@
   </servers>
   <mirrors/>
   <proxies/>
-  <profiles/>
+  <profiles>
+  <profile>
+      <id>bubl.guru</id>
+      <activation>
+          <activeByDefault>true</activeByDefault>
+      </activation>
+      <repository>
+          <id>sonatype-snapshots</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      </repository>
+  </profiles>
   <activeProfiles/>
 </settings>
