@@ -27,6 +27,10 @@
                     <id>sonatype-snapshots</id>
                     <url>https://oss.sonatype.org/content/repositories/snapshots</url>
           </repository>
+          <repository>
+                    <id>neo4j</id>
+                    <url>http://m2.neo4j.org/content/repositories/releases</url>
+          </repository>
       </repositories>
   </profile>
   </profiles>
