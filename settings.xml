@@ -24,8 +24,8 @@
       </activation>
       <repositories>
           <repository>
-                    <id>maven-repository</id>
-                    <url>https://maven-repository.com/artifact/org.neo4j/neo4j-jdbc/2.1.4</url>
+                    <id>neo4j</id>
+                    <url>http://m2.neo4j.org/content/repositories/releases</url>
           </repository>
           <repository>
                     <id>sonatype-snapshots</id>
