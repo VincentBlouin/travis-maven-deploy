@@ -29,7 +29,7 @@
           </repository>
           <repository>
                     <id>neo4j</id>
-                    <url>http://m2.neo4j.org/content/repositories/releases</url>
+                    <url>https://m2.neo4j.org/content/repositories/releases</url>
           </repository>
       </repositories>
   </profile>
