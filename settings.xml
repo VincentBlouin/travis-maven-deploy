@@ -24,13 +24,17 @@
       </activation>
       <repositories>
           <repository>
+                    <id>mvn-repository</id>
+                    <url>http://mvnrepository.com/artifact</url>
+          </repository>
+          <repository>
                     <id>sonatype-snapshots</id>
                     <url>https://oss.sonatype.org/content/repositories/snapshots</url>
           </repository>
           <repository>
                     <id>maven-repository</id>
-                    <url>https://maven-repository.com/artifact</url>
-        </repository>
+                    <url>http://maven-repository.com/artifact</url>
+          </repository>
       </repositories>
   </profile>
   </profiles>
